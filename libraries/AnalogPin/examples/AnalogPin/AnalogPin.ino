@@ -32,7 +32,7 @@ void loop()
   Serial.print(INA.readSmoothed(16));
   Serial.print('\t');
 
-  Serial.print(INA.readPrevious());
+  Serial.print(INA.readPrevious()); // this does not exist
 
   Serial.println();
   delay(100);
